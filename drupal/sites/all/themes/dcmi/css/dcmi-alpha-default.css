@@ -1,0 +1,33 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+.logo-img,
+.site-name-slogan {
+    float: left;
+    text-align: left;
+}
+.site-name-slogan {
+    margin-top: 30px;
+}
+.site-name-slogan h2 {
+    margin-top: inherit;
+}
+ul#main-menu li {
+    display: inline-block;
+
+    text-align: left;
+}
+ul#main-menu li a {
+    padding: 5px 15px;
+}
+ul#main-menu li.first a {
+    padding-left: 0;
+}
+#zone-content {
+    border: 4px solid #ccc;
+    border-top: 0;
+    border-bottom: 0;
+}
+#region-sidebar-second {
+    width: 341px;
+    margin-left: -1px;
+    border-right: none;
+}
