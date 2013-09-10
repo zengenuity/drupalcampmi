@@ -551,5 +551,8 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  */
 # $conf['allow_authorize_operations'] = FALSE;
 
-include 'local.settings.php';
+$local_settings = dirname(__FILE__) . '/local.settings.php';
+if (file_exists($local_settings)) {
+  include $local_settings;
+}
 
